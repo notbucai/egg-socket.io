@@ -16,12 +16,13 @@
     "websocket"
   ],
   "dependencies": {
+    "@socket.io/redis-adapter": "^7.1.0",
     "debug": "^4.1.0",
     "delegates": "^1.0.0",
     "is-type-of": "^1.2.1",
     "koa-compose": "^4.1.0",
-    "socket.io": "^2.1.1",
-    "socket.io-redis": "^5.2.0"
+    "redis": "^3.1.2",
+    "socket.io": "^4.4.0"
   },
   "devDependencies": {
     "@types/node": "^10.9.4",
@@ -45,7 +46,7 @@
     "webstorm-disable-index": "^1.2.0"
   },
   "engines": {
-    "node": ">=8.0.0"
+    "node": ">=12.0.0"
   },
   "scripts": {
     "test": "npm run lint -- --fix && npm run test-local",
