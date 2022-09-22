@@ -1,5 +1,5 @@
 {
-  "name": "egg-socket.io",
+  "name": "@bucai/egg-socket.io",
   "version": "4.1.6",
   "description": "egg plugin for socket.io",
   "eggPlugin": {
